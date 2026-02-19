@@ -12,7 +12,10 @@
 
 ### Enhancements
 
-* None.
+* Add `rules` array to SARIF reporter output, providing metadata for all
+  built-in rules in accordance with the SARIF specification.  
+  [ahmadalfy](https://github.com/ahmadalfy)
+  [#6499](https://github.com/realm/SwiftLint/issues/6499)
 
 ### Bug Fixes
 
