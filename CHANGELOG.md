@@ -17,6 +17,14 @@
   [ahmadalfy](https://github.com/ahmadalfy)
   [#6499](https://github.com/realm/SwiftLint/issues/6499)
 
+* Add `ignored_literal_argument_functions` option to the `force_unwrapping` rule
+  to skip violations for configurable function calls when all arguments are
+  literal values (e.g. `URL(string: "https://example.com")!`). Defaults
+  include `URL(string:)`, `NSURL(string:)`, `UIImage(named:)`,
+  `NSImage(named:)`, and `Data(hexString:)`.
+  [claudeaceae](https://github.com/claudeaceae)
+  [#6487](https://github.com/realm/SwiftLint/issues/6487)
+
 ### Bug Fixes
 
 * Ensure that disable commands work for `redundant_nil_coalescing` rule.  
